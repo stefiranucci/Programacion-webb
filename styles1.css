@@ -1,0 +1,150 @@
+body{
+    background-color: #c1946a;
+}
+
+body{
+    padding-bottom: 10em;
+    min-height: 100vh;
+}
+
+.claseParrafo {
+   text-align: justify;
+   font-size: 3vh;
+    color: #7e4a35;
+    word-spacing: 0.5em;
+    margin-top: 20vh;
+    margin-right: 8vh;
+    margin-left: 8vh;
+    margin-bottom: 0,05vh;
+}
+
+.options {
+    position: relative;
+    top: 6vh;
+    font-size: 3vh;
+    color: #7e4a35;
+    font-style: verdana;
+    display: inline;
+    margin-top: 50vh;
+}
+
+h3{
+    color: #7e4a35; 
+    font-size: 3vh; 
+    border-left: 2vh, justify;
+    word-spacing: 0.5em;
+    margin-top: 25vh;
+    margin-right: 190vh;
+    margin-left: 9vh;
+    margin-bottom: 1vh;
+    position: absolute;
+}
+
+h4{
+    font-size: 5vh;
+    text-align: left;
+    font-style: bold;
+    color: #7e4a35;
+}
+
+title{
+    font-style: italic;
+    }
+
+#title{
+    color:#c97b2e;
+    font-size: 15vh;
+    text-align: right;
+    margin-right: 18vh;
+    font-style: italic;
+    position: relative;
+    }
+
+li{
+    display: inline; margin: 10vh;
+    font-size: 6vh;
+    font-style: verdana;
+}
+
+ul{
+    padding-bottom: 20vh;
+    }
+
+
+
+.imagen{
+    margin-left: 30vh;
+    margin-top: 30vh;
+    width: 20vh;
+    height: 30vh;
+}
+
+.navegador{
+    width: auto;
+    
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    height: 15vh;
+    z-index: 99;
+
+}
+
+
+
+#logo{
+    width: 10vh;
+    height: 10vh;
+    float: right;
+    margin-right: 6vh;
+    margin-top: 2.5vh;
+}
+
+#whatsapp{
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
+}
+
+.container{
+    position : relative;
+    top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15vh;
+    
+}
+
+.imagen-container{
+    width: 50vh;
+    height: 50vh;
+    
+
+}
+
+.footer{
+    background-color: #7e4a35;
+    position: absolute;
+    height: 10vh;
+    text-align: center;
+}
+
+.letra-footer{
+    color: white;
+    font-size: 3vh;
+    text-align: left;
+}
+
+@media screen and (min-width:400px) {
+    body{
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 800px){
+    body{
+        background-color: aqua;
+    }
+}
