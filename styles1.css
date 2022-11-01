@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: #c1946a;
 }
 
@@ -23,7 +23,7 @@ body{
     top: 6vh;
     font-size: 3vh;
     color: #7e4a35;
-    font-style: verdana;
+    font-style: bold;
     display: inline;
     margin-top: 50vh;
 }
@@ -40,7 +40,7 @@ h3{
     position: absolute;
 }
 
-h4{
+.h4{
     font-size: 5vh;
     text-align: left;
     font-style: bold;
@@ -64,6 +64,7 @@ li{
     display: inline; margin: 10vh;
     font-size: 6vh;
     font-style: verdana;
+    text-decoration: none;
 }
 
 ul{
@@ -137,14 +138,81 @@ ul{
     text-align: left;
 }
 
-@media screen and (min-width:400px) {
-    body{
-        background-color: white;
-    }
+#carouselExampleControls{
+    margin-bottom: 15vh;
+    margin-bottom: 15vh;
 }
 
-@media screen and (min-width: 800px){
-    body{
-        background-color: aqua;
-    }
+.card-text{
+    color:#7e4a35;
+    font-style: italic;
+
+}
+
+.card-title{
+    color: #7e4a35;
+    font-style: bold;
+}
+
+
+.nosotros1{
+    max-width: 20%;
+    margin-left: 120vh;
+
+}
+
+.nosotrosp{
+    margin-left: 8vh;
+    font-style: bold;
+    color: #7e4a35;
+    text-align: justify;
+    margin-right: 8vh;
+    font-size: 4vh;
+}
+
+#imgnosotros{
+    width: 60vh;
+    height: 60;
+    margin-right: 08vh;
+}
+
+.acercanosotros{
+    font-size: 8vh;
+    margin-left: 15vh;
+    color: #7e4a35;
+    font-style: italic;
+}
+
+#imgnosotros2{
+    width: 60vh;
+    height: 70vh;
+    margin-left: 8vh;
+}
+
+#logo2{
+    width: 20vh;
+    height: 19vh;
+    float: right;
+    margin-right: 6vh;
+    margin-top: 0vh;
+}
+
+.navegador2{
+    width: auto;
+    
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    height: 19vh;
+    z-index: 99;
+
+}
+
+#bajar{
+    margin-top: 5vh;
+}
+
+#location{
+    width: 70vh;
+    height: 30vh;
 }
