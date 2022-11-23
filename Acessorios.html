@@ -15,37 +15,34 @@
         <img id="logo2" src="logo.png" alt="">
             <ul class="letra">
                 <a href="index.html"> <li class="options"> Volver al inicio </li></a>
-                <li class="options"> Carrito </li>
             </ul>
         </header>
 
         <div id="bajar" class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card">
+              <div id="card" class="card">
                 <img src="maquina3.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title"> Maquina standar </h5>
-                  <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
-                  <button type="button" class="btn btn-outline-secondary"> $1500 </button>
+                  <h5 class="card-title"> Maquina standar $13400 </h5>
+                  <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(13400, 'maquina')"> Agregar al carrito </button>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div id="card" class="card">
                 <img src="maquina2.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title"> Maquina </h5>
-                  <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
-                  <button type="button" class="btn btn-outline-secondary" onclick="sumaproductos(34000, 'combinado roll x24')" > $3400 </button>
+                  <h5 class="card-title"> Maquina $34000 </h5>
+                  <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(34000, 'maquina')"> Agregar al carrito </button>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card">
+              <div id="card" class="card">
                 <img src="maquina1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title"> Maquina de cafe pro </h5>
-                  <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+                  <h5 class="card-title"> Cafe pro $44000 </h5>
+                  <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(44000, 'maquina')"> Agregar al carrito </button>
                 </div>
               </div>
             </div>
@@ -54,69 +51,78 @@
 
 <div id="bajar" class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
-      <div class="card">
+      <div id="card1" class="card">
         <img src="aerochino.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title"> Aerocchino </h5>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title"> Aerocchino $11000</h5>
+          <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(11000, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="card1"class="card">
         <img src="tazas.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title"> Tazas de vidrio </h5>
+          <h5 class="card-title"> Tazas de vidrio $2300</h5>
           <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(2300, 'taza')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="card1" class="card">
         <img src="cubo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title"> Cubo de vidrio </h5>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title"> Cubo de vidrio $9000</h5>
+          <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(9000, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
   </div>
   <div class="row row-cols-1 row-cols-md-3 g-4" id="bajar">
     <div class="col">
-      <div class="card">
+      <div id="card2" class="card">
         <img src="cubetera.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title"> Cubetera de vidrio </h5>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title"> Cubetera de vidrio $7000</h5>
+          <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(7000, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="card2" class="card">
         <img src="tazas2.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title"> Tazas de ceramica </h5>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title"> Tazas de ceramica $3000 </h5>
+          <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(3000, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="card2" class="card">
         <img src="tazanegra.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title"> Tazas de c </h5>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title"> Tazas de c $3000 </h5>
+          <button type="button" class="btn btn-outline-secondary" onclick="sumaProductos(3000, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
   </div> 
+
+  <div class="zona_calculadora" id="icalculadora">
+    <div class="texto_calcu"></div>
+    <div class="d-grid gap-2 col-6 mx-auto" id="carrito">
+        <button class="btnnbtn-primary" type="button" disabled>
+            <div class="zona_calculo2" id="calculadora"></div>
+             <div id="elTotal">  CARRITO   TOTAL: 0 Pesos</div>
+             <button type="button" class="btn btn-primary color " id="calcu" onclick="Limpiar()">Vaciar Carrito</button>
+             <button type="submit" class="submit">ENVIAR</button>
+        </button>   
+    </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  <script>
-    let Total = 0
-    function sumaProductos(Valoritem, Producto) 
-   
-      Total = Total + Valoritem
-      Total=0
-    </script>
+  <script src="./carrito.js"></script>
+  <script src="https://kit.fontawesome.com/06dcfaa273.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
   

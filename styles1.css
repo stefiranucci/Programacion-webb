@@ -216,3 +216,52 @@ ul{
     width: 70vh;
     height: 30vh;
 }
+
+#calcu{
+    background-color:#c1946a;
+    border-color: black;
+}
+
+#icalculadora{
+    margin-top: 15vh;
+}
+
+.list-group-item{
+    font-size: 5vh;
+    text-align: center;
+
+}
+
+@media (min-width:768px) and (max-width:900px){
+
+    #card{
+        height: 70vh;
+    
+    }
+    
+    #card1{
+        height: 50vh;
+    }
+    
+    #card2{
+        height: 60vh;
+    }
+    
+    #cardcafe{
+        height: 75vh;
+    }
+    
+    #agregarcarritocapuccino{
+        margin-top: 12vh;
+    }
+    
+    #agregarcarritomocca{
+        margin-top: 7vh;
+    }
+    
+    #agregarcarritocaramel{
+        margin-top: 6vh;
+    }
+
+}
+

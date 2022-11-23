@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type = "text/javascript" src="carrito.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,32 +21,32 @@
 
     <div class="row row-cols-1 row-cols-md-3 g-4" id="bajar">
         <div class="col">
-          <div class="card">
+          <div id="cardcafe" class="card">
             <img src="cafe4.png" class="card-img-top" alt="cafe en grano">
             <div class="card-body">
-              <h5 class="card-title">Capuccino</h5>
+              <h5 class="card-title">Capuccino $1600 </h5>
               <p class="card-text">quienes valoran la dulzura natural del café y aplican un tueste ligero para protegerla, seleccionamos con cuidado</p>
-              <button type="button" class="btn btn-outline-secondary"> Agregar al carrito</button>
+              <button type="button" id="agregarcarritocapuccino" class="btn btn-outline-secondary" onclick="sumaProductos(1600, 'maquina')" > Agregar al carrito</button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div id="cardcafe" class="card">
             <img src="cafe3.png" class="card-img-top" alt="grano cafe3">
             <div class="card-body">
-              <h5 class="card-title">Cacao Caramel</h5>
+              <h5 class="card-title">Cacao Caramel $1600</h5>
               <p class="card-text">El cálido sabor del caramelo suaviza las notas tostadas de nuestro espresso más equilibrado y suave, dejándonos una sensación exquisita de dulzura</p>
-              <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+              <button type="button"id="agregarcarritocaramel"class="btn btn-outline-secondary" onclick="sumaProductos(1600, 'maquina')" > Agregar al carrito </button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div id="cardcafe" class="card">
             <img src="grano1.png" class="card-img-top" alt="cafe en grano1">
             <div class="card-body">
-              <h5 class="card-title">White Mocca</h5>
-              <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una unión afectiva que nos recuerda a las trufas de chocolate negro. </p>
-              <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+              <h5 class="card-title">White Mocca $1600</h5>
+              <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una unión afectiva  </p>
+              <button type="button" id="agregarcarritomocca"class="btn btn-outline-secondary" onclick="sumaProductos(1600, 'maquina')"> Agregar al carrito </button>
             </div>
           </div>
         </div>
@@ -56,32 +57,32 @@
 
 <div class="row row-cols-1 row-cols-md-3 g-4" id="bajar">
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="cafe4.png" class="card-img-top" alt="cafe en grano">
         <div class="card-body">
-          <h5 class="card-title">Capuccino</h5>
+          <h5 class="card-title">Capuccino $1600 </h5>
           <p class="card-text">quienes valoran la dulzura natural del café y aplican un tueste ligero para protegerla, seleccionamos con cuidado</p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito</button>
+          <button type="button" id="agregarcarritocapuccino"class="btn btn-outline-secondary"onclick="sumaProductos(1600, 'maquina')" > Agregar al carrito</button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="cafe3.png" class="card-img-top" alt="grano cafe3">
         <div class="card-body">
-          <h5 class="card-title">Cacao Caramel</h5>
+          <h5 class="card-title">Cacao Caramel $1600</h5>
           <p class="card-text">El cálido sabor del caramelo suaviza las notas tostadas de nuestro espresso más equilibrado y suave, dejándonos una sensación exquisita de dulzura</p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <button type="button" id="agregarcarritocaramel"class="btn btn-outline-secondary" onclick="sumaProductos(1600, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="grano1.png" class="card-img-top" alt="cafe en grano1">
         <div class="card-body">
-          <h5 class="card-title">White Mocca</h5>
-          <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una unión afectiva que nos recuerda a las trufas de chocolate negro. </p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title">White Mocca $1600</h5>
+          <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una unión afectiva  </p>
+          <button type="button" id="agregarcarritomocca"class="btn btn-outline-secondary" onclick="sumaProductos(1600, 'maquina')" > Agregar al carrito </button>
         </div>
       </div>
     </div>
@@ -91,32 +92,32 @@
 
   <div class="row row-cols-1 row-cols-md-3 g-4" id="bajar">
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="cafe4.png" class="card-img-top" alt="cafe en grano">
         <div class="card-body">
-          <h5 class="card-title">Capuccino</h5>
+          <h5 class="card-title">Capuccino $1600</h5>
           <p class="card-text">quienes valoran la dulzura natural del café y aplican un tueste ligero para protegerla, seleccionamos con cuidado</p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito</button>
+          <button type="button" id="agregarcarritocapuccino"class="btn btn-outline-secondary"> Agregar al carrito</button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="cafe3.png" class="card-img-top" alt="grano cafe3">
         <div class="card-body">
-          <h5 class="card-title">Cacao Caramel</h5>
-          <p class="card-text">El cálido sabor del caramelo suaviza las notas tostadas de nuestro espresso más equilibrado y suave, dejándonos una sensación exquisita de dulzura</p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title">Cacao Caramel $1600</h5>
+          <p class="card-text">El cálido sabor del caramelo suaviza las notas tostadas de nuestro espresso más equilibrado y suave, dejándonos una sensación exquisita de dulzura uego8syxge08sodx</p>
+          <button type="button" id="agregarcarritocaramel"class="btn btn-outline-secondary" onclick="agregarElemento(1500,'cacao Caramel')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="grano1.png" class="card-img-top" alt="cafe en grano1">
         <div class="card-body">
-          <h5 class="card-title">White Mocca</h5>
-          <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una unión afectiva que nos recuerda a las trufas de chocolate negro. </p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title">White Mocca $1600</h5>
+          <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una unión afectiva  </p>
+          <button type="button" id="agregarcarritomocca"class="btn btn-outline-secondary"onclick="sumaProductos(1600, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
@@ -125,34 +126,55 @@
 
   <div class="row row-cols-1 row-cols-md-3 g-4" id="bajar">
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="cafe4.png" class="card-img-top" alt="cafe en grano">
         <div class="card-body">
-          <h5 class="card-title">Capuccino</h5>
+          <h5 class="card-title">Capuccino $1600</h5>
           <p class="card-text">quienes valoran la dulzura natural del café y aplican un tueste ligero para protegerla, seleccionamos con cuidado</p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito</button>
+          <button type="button" id="agregarcarritocapuccino"class="btn btn-outline-secondary"onclick="sumaProductos(1600, 'maquina')"> Agregar al carrito</button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="cafe3.png" class="card-img-top" alt="grano cafe3">
         <div class="card-body">
-          <h5 class="card-title">Cacao Caramel</h5>
+          <h5 class="card-title">Cacao Caramel $1600</h5>
           <p class="card-text">El cálido sabor del caramelo suaviza las notas tostadas de nuestro espresso más equilibrado y suave, dejándonos una sensación exquisita de dulzura</p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <button type="button" id="agregarcarritocaramel" class="btn btn-outline-secondary"onclick="sumaProductos(1600, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div id="cardcafe" class="card">
         <img src="grano1.png" class="card-img-top" alt="cafe en grano1">
         <div class="card-body">
-          <h5 class="card-title">White Mocca</h5>
-          <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una unión afectiva que nos recuerda a las trufas de chocolate negro. </p>
-          <button type="button" class="btn btn-outline-secondary"> Agregar al carrito </button>
+          <h5 class="card-title">White Mocca $1600</h5>
+          <p class="card-text"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base del BARISTA CREATIONS Cocoa Truffle. Es una union efectiva</p>
+          <button type="button" id="agregarcarritomocca" class="btn btn-outline-secondary"onclick="sumaProductos(1600, 'maquina')"> Agregar al carrito </button>
         </div>
       </div>
     </div>
     </div>
   </div>
+
+  <div class="zona_calculadora" id="icalculadora">
+    <div class="texto_calcu"></div>
+    <div class="d-grid gap-2 col-6 mx-auto" id="carrito">
+        <button class="btnnbtn-primary" type="button" disabled>
+            <div class="zona_calculo2" id="calculadora"></div>
+             <div id="elTotal">  CARRITO   TOTAL: 0 Pesos</div>
+             <button type="button" class="btn btn-primary color " id="calcu" onclick="Limpiar()">Vaciar Carrito</button>
+             <button type="submit" class="submit">ENVIAR</button>
+        </button>   
+    </div>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="./carrito.js"></script>
+  <script src="https://kit.fontawesome.com/06dcfaa273.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  
